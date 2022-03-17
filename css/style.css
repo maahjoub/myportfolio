@@ -162,19 +162,19 @@ body {
 }
 .contact .contact-info .phone .tel,
 .contact .contact-info .email .mail {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 800;
   letter-spacing: -2px;
 }
 .contact .contact-info .phone .tel-num {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
 }
 .contact .contact-info .email svg {
   color: #df46cc;
 }
 .contact .contact-info .email .mail-add {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 500;
 }
 /* end contact */
