@@ -220,6 +220,33 @@ body {
   letter-spacing: -2px;
   font-size: 18px;
 }
+/* Start Footer */
+.footer {
+  background-color: #60686b;
+  padding: 20px 10px;
+
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  
+}
+.body .made {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.body .made a {
+  text-decoration: none;
+  color: #df46cc;
+  font-weight: 900;
+}
+.body .copyright {
+  font-size: 12px;
+  font-weight: 600;
+}
+/* End Footer */
 @media (max-width: 767px) {
   .info h2 {
     position: absolute;
@@ -260,5 +287,10 @@ body {
     margin-left: 0;
   }
   .info-container {
+  }
+  .body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
