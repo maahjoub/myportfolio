@@ -213,7 +213,13 @@ body {
   height: 100px;
   cursor: pointer;
   margin-bottom: 15px;
+  transition: all .5s ease-in-out;
   
+}
+.pro-img img:hover {
+  position: absolute;
+  z-index: 99;
+  transform: scale(3);
 }
 .projects .pro-img .title{
   font-weight: 700;
